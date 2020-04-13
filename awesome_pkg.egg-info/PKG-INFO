@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: awesome-pkg
+Version: 0.0.2
+Summary: My sample package from a public github repo
+Home-page: git@github.com:erik-farmer/awesome_pkg.git
+Author: Erik Farmer
+Author-email: UNKNOWN
+License: unlicense
+Description: UNKNOWN
+Platform: UNKNOWN

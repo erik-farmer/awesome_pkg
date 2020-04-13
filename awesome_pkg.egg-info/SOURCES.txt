@@ -1,0 +1,9 @@
+README.md
+setup.py
+awesome_pkg/__init__.py
+awesome_pkg/apkg.py
+awesome_pkg.egg-info/PKG-INFO
+awesome_pkg.egg-info/SOURCES.txt
+awesome_pkg.egg-info/dependency_links.txt
+awesome_pkg.egg-info/not-zip-safe
+awesome_pkg.egg-info/top_level.txt
