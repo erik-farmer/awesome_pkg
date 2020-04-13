@@ -16,4 +16,26 @@ pkg_name/
 
 Admittedly I have _never_ written a `setup.py` file before.
 
+I've also added a simple module/method to test with:
+
+```python
+# apkg.py
+def main():
+    print('Hey this is pretty awesome')
+
+```
+
 So far seems easy enough. Time to create another project/venv and see if I can install it.
+
+Running `pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git` worked like a charm.
+
+Test file:
+```python
+from awesome_pkg.apkg import main
+main()
+>>> Hey this is pretty awesome
+```
+
+Success!!! But now I need to look into versioning...
+
+## Versions!
