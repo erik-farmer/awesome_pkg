@@ -43,5 +43,18 @@ So I've ran `python setup.py bdist --format=zip` on the existing 0.0.1 version, 
 
 ## Attempting to specify the new version.
 
- I made a release on gitHub (0.0.2) and ran `pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git#release=0.0.2` and it worked with the new code. Im going to make _another_ new release and try to install the 0.0.2 version, then uninstall that, and upgrade.
- 
+I made a release on gitHub (0.0.2) and ran `pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git#release=0.0.2` and it worked with the new code. Im going to make _another_ new release and try to install the 0.0.2 version, then uninstall that, and upgrade.
+
+I pushed the code to master, created a new release and ran the following:
+
+`pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git#releases=0.0.2`
+
+I ran the previous python code and got the 0.0.2 release print statement.
+
+## However
+
+When I did a `pip uninstall awesome_pkg` it said uninstalling 0.0.3 which I awesome it is getting from the `setup.py` file.
+
+I tried to install the latest with `pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git#releases=0.0.3` and it still ran the 0.0.2 statement.
+
+This raises a few problems. One of which is that I am not even using the `dist` folder on the project. Time to poke around the internet.

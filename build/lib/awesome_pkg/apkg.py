@@ -1,2 +1,2 @@
 def main():
-    print('Hey this is a new awesome version')
+    print('Hey this is the latest version')
