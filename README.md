@@ -16,3 +16,4 @@ pkg_name/
 
 Admittedly I have _never_ written a `setup.py` file before.
 
+So far seems easy enough. Time to create another project/venv and see if I can install it.
