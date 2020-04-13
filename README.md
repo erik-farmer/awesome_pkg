@@ -39,3 +39,9 @@ main()
 Success!!! But now I need to look into versioning...
 
 ## Versions!
+So I've ran `python setup.py bdist --format=zip` on the existing 0.0.1 version, change the main function, bumped the version and re-ran bdist. Pushing everything to github now.
+
+## Attempting to specify the new version.
+
+ I made a release on gitHub (0.0.2) and ran `pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git#release=0.0.2` and it worked with the new code. Im going to make _another_ new release and try to install the 0.0.2 version, then uninstall that, and upgrade.
+ 
