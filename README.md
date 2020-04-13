@@ -58,3 +58,11 @@ When I did a `pip uninstall awesome_pkg` it said uninstalling 0.0.3 which I awes
 I tried to install the latest with `pip install git+ssh://git@github.com/erik-farmer/awesome_pkg.git#releases=0.0.3` and it still ran the 0.0.2 statement.
 
 This raises a few problems. One of which is that I am not even using the `dist` folder on the project. Time to poke around the internet.
+
+## Resolution
+So I didn't make a 0.0.3 dist...
+Reran `python setup.py bdist --format=zip` and uploaded to github (no new release) and it picked up the right version.
+
+## However (again)
+I've attempted to downgrade and it was still installing 0.0.3
+I will consult the internet once again! But this seems like a good stopping point before lunch.
