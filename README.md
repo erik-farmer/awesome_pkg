@@ -66,3 +66,8 @@ Reran `python setup.py bdist --format=zip` and uploaded to github (no new releas
 ## However (again)
 I've attempted to downgrade and it was still installing 0.0.3
 I will consult the internet once again! But this seems like a good stopping point before lunch.
+
+## Back at it...
+(a few days later)
+
+Going to try wheel. Deleting all of the old build files and releases on github and start over with wheel. Then I will try to use this tagging scheme: `git+ssh://git@github.com/erik-farmer/awesome_pkg.git@v<version>`
