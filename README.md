@@ -74,4 +74,9 @@ Going to try wheel. Deleting all of the old build files and releases on github a
 
 Ok So that worked with the new build 0.0.1-alpha
 
-Going to try again with a new main function and a new release (v0.0.2) 
+Going to try again with a new main function and a new release (v0.0.2)
+
+## Thank the lord it works
+Upgrading to the new env and then attempting to downgrade both work with different messages. This is a lovely point to stop...
+
+The next iteration of this will need some dependencies to package but we can tackle that another day.
