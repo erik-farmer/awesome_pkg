@@ -71,3 +71,7 @@ I will consult the internet once again! But this seems like a good stopping poin
 (a few days later)
 
 Going to try wheel. Deleting all of the old build files and releases on github and start over with wheel. Then I will try to use this tagging scheme: `git+ssh://git@github.com/erik-farmer/awesome_pkg.git@v<version>`
+
+Ok So that worked with the new build 0.0.1-alpha
+
+Going to try again with a new main function and a new release (v0.0.2) 
