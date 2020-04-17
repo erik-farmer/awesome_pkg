@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: awesome-pkg
-Version: 0.0.3
+Version: 0.0.1
 Summary: My sample package from a public github repo
 Home-page: git@github.com:erik-farmer/awesome_pkg.git
 Author: Erik Farmer
